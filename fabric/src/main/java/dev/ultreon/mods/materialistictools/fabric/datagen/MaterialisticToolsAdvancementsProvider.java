@@ -48,7 +48,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder wood = Advancement.Builder.advancement()
                 .display(
                         Items.WOODEN_PICKAXE,
-                        Component.literal("Wood"),
+                        Component.literal("Your First Pickaxe"),
                         Component.literal("Obtain a wooden pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -63,7 +63,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder electrum = Advancement.Builder.advancement()
                 .display(
                         Toolset.ELECTRUM.getPickaxe().get(),
-                        Component.literal("Electrum"),
+                        Component.literal("Electric Feel"),
                         Component.literal("Obtain an electrum pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -78,7 +78,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder stone = Advancement.Builder.advancement()
                 .display(
                         Items.STONE_PICKAXE,
-                        Component.literal("Stone"),
+                        Component.literal("Rock Bottom"),
                         Component.literal("Obtain a stone pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -93,7 +93,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder lumium = Advancement.Builder.advancement()
                 .display(
                         Toolset.LUMIUM.getPickaxe().get(),
-                        Component.literal("Lumium"),
+                        Component.literal("Let There Be Light"),
                         Component.literal("Obtain a lumium pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -108,8 +108,8 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder iron = Advancement.Builder.advancement()
                 .display(
                         Items.IRON_PICKAXE,
-                        Component.literal("Iron"),
-                        Component.literal("Obtain a iron pickaxe"),
+                        Component.literal("Ironically Iron"),
+                        Component.literal("Obtain an iron pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
                         false,
@@ -123,7 +123,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder silver = Advancement.Builder.advancement()
                 .display(
                         Toolset.SILVER.getPickaxe().get(),
-                        Component.literal("Silver"),
+                        Component.literal("Silver Lining"),
                         Component.literal("Obtain a silver pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -138,7 +138,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder lead = Advancement.Builder.advancement()
                 .display(
                         Toolset.LEAD.getPickaxe().get(),
-                        Component.literal("Lead"),
+                        Component.literal("Heavy Metal"),
                         Component.literal("Obtain a lead pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -153,7 +153,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder aluminum = Advancement.Builder.advancement()
                 .display(
                         Toolset.ALUMINUM.getPickaxe().get(),
-                        Component.literal("Aluminum"),
+                        Component.literal("Lightweight"),
                         Component.literal("Obtain an aluminum pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -168,7 +168,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder uranium = Advancement.Builder.advancement()
                 .display(
                         Toolset.URANIUM.getPickaxe().get(),
-                        Component.literal("Uranium"),
+                        Component.literal("Radioactive"),
                         Component.literal("Obtain an uranium pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -183,7 +183,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder redstone = Advancement.Builder.advancement()
                 .display(
                         Toolset.REDSTONE.getPickaxe().get(),
-                        Component.literal("Redstone"),
+                        Component.literal("Energized"),
                         Component.literal("Obtain a redstone pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -198,7 +198,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder gold = Advancement.Builder.advancement()
                 .display(
                         Items.GOLDEN_PICKAXE,
-                        Component.literal("Gold"),
+                        Component.literal("Gold Digger"),
                         Component.literal("Obtain a golden pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -213,7 +213,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder platinum = Advancement.Builder.advancement()
                 .display(
                         Toolset.PLATINUM.getPickaxe().get(),
-                        Component.literal("Platinum"),
+                        Component.literal("Going Platinum"),
                         Component.literal("Obtain a platinum pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -228,8 +228,8 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder enderium = Advancement.Builder.advancement()
                 .display(
                         Toolset.ENDERIUM.getPickaxe().get(),
-                        Component.literal("Enderium"),
-                        Component.literal("Obtain a enderium pickaxe"),
+                        Component.literal("What Are You Looking At?"),
+                        Component.literal("Obtain an enderium pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
                         true,
@@ -243,7 +243,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder diamond = Advancement.Builder.advancement()
                 .display(
                         Items.DIAMOND_PICKAXE,
-                        Component.literal("Diamond"),
+                        Component.literal("Shine On"),
                         Component.literal("Obtain a diamond pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -258,7 +258,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder netherite = Advancement.Builder.advancement()
                 .display(
                         Items.NETHERITE_PICKAXE,
-                        Component.literal("Netherite"),
+                        Component.literal("From Old To New"),
                         Component.literal("Obtain a netherite pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -273,7 +273,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder mithril = Advancement.Builder.advancement()
                 .display(
                         Toolset.MITHRIL.getPickaxe().get(),
-                        Component.literal("Mithril"),
+                        Component.literal("Mythical"),
                         Component.literal("Obtain a mithril pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -288,8 +288,8 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder obsidian = Advancement.Builder.advancement()
                 .display(
                         Toolset.OBSIDIAN.getPickaxe().get(),
-                        Component.literal("Obsidian"),
-                        Component.literal("Obtain a obsidian pickaxe"),
+                        Component.literal("Fiery Tools"),
+                        Component.literal("Obtain an obsidian pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
                         true,
@@ -303,7 +303,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder cobalt = Advancement.Builder.advancement()
                 .display(
                         Toolset.COBALT.getPickaxe().get(),
-                        Component.literal("Cobalt"),
+                        Component.literal("I'm Blue"),
                         Component.literal("Obtain a cobalt pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -318,8 +318,8 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder ultrinium = Advancement.Builder.advancement()
                 .display(
                         Toolset.ULTRINIUM.getPickaxe().get(),
-                        Component.literal("Ultrinium"),
-                        Component.literal("Obtain a ultrinium pickaxe"),
+                        Component.literal("Strange Metal"),
+                        Component.literal("Obtain an ultrinium pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
                         true,
@@ -333,7 +333,7 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder chunk = Advancement.Builder.advancement()
                 .display(
                         Toolset.CHUNK.getPickaxe().get(),
-                        Component.literal("Chunk"),
+                        Component.literal("Chunky"),
                         Component.literal("Obtain a chunk pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
@@ -348,8 +348,8 @@ public class MaterialisticToolsAdvancementsProvider extends FabricAdvancementPro
         AdvancementHolder infinity = Advancement.Builder.advancement()
                 .display(
                         Toolset.INFINITY.getPickaxe().get(),
-                        Component.literal("Infinity"),
-                        Component.literal("Obtain a infinity pickaxe"),
+                        Component.literal("Infinity And Beyond"),
+                        Component.literal("Obtain an infinity pickaxe"),
                         MaterialisticTools.id("gui/advancement_background"),
                         AdvancementType.TASK,
                         true,

@@ -14,11 +14,11 @@
   },
   "display": {
     "background": "materialistic_tools:gui/advancement_background",
-    "description": "Obtain a infinity pickaxe",
+    "description": "Obtain an infinity pickaxe",
     "icon": {
       "id": "materialistic_tools:infinity_pickaxe"
     },
-    "title": "Infinity"
+    "title": "Infinity And Beyond"
   },
   "requirements": [
     [

@@ -14,11 +14,11 @@
   },
   "display": {
     "background": "materialistic_tools:gui/advancement_background",
-    "description": "Obtain a ultrinium pickaxe",
+    "description": "Obtain an ultrinium pickaxe",
     "icon": {
       "id": "materialistic_tools:ultrinium_pickaxe"
     },
-    "title": "Ultrinium"
+    "title": "Strange Metal"
   },
   "requirements": [
     [

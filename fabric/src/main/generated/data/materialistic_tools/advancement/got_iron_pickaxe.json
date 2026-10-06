@@ -14,12 +14,12 @@
   },
   "display": {
     "background": "materialistic_tools:gui/advancement_background",
-    "description": "Obtain a iron pickaxe",
+    "description": "Obtain an iron pickaxe",
     "icon": {
       "id": "minecraft:iron_pickaxe"
     },
     "show_toast": false,
-    "title": "Iron"
+    "title": "Ironically Iron"
   },
   "requirements": [
     [
