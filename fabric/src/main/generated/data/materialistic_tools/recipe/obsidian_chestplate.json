@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#materialistic_tools:obsidian",
+    "O": "materialistic_tools:fire_gem"
+  },
+  "pattern": [
+    "# #",
+    "#O#",
+    "###"
+  ],
+  "result": {
+    "id": "materialistic_tools:obsidian_chestplate"
+  }
+}

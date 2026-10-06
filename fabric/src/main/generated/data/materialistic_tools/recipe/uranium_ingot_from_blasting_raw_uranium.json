@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.1,
+  "group": "uranium_ingot",
+  "ingredient": "materialistic_tools:raw_uranium",
+  "result": {
+    "id": "materialistic_tools:uranium_ingot"
+  }
+}

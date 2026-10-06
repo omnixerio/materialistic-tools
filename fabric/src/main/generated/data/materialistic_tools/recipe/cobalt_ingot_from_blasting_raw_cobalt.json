@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1.2,
+  "group": "cobalt_ingot",
+  "ingredient": "materialistic_tools:raw_cobalt",
+  "result": {
+    "id": "materialistic_tools:cobalt_ingot"
+  }
+}

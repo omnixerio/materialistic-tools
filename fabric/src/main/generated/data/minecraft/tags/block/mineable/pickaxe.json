@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#neoforge:ores/uranium",
+    "#neoforge:ores/ultrinium",
+    "#neoforge:ores/platinum",
+    "#neoforge:ores/diamond",
+    "#neoforge:ores/gold",
+    "#neoforge:ores/lead",
+    "#neoforge:ores/copper",
+    "#neoforge:ores/cobalt",
+    "#neoforge:ores/chunk",
+    "#neoforge:ores/emerald",
+    "#neoforge:ores/iron",
+    "#neoforge:ores/infinity",
+    "#neoforge:ores/mithril",
+    "#neoforge:ores/bauxite",
+    "#neoforge:ores/silver"
+  ]
+}

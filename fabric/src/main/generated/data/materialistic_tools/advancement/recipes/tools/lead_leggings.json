@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_neoforge:ingots/lead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/lead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "materialistic_tools:lead_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_neoforge:ingots/lead"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "materialistic_tools:lead_leggings"
+    ]
+  }
+}

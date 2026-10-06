@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1.0,
+  "group": "mithril_ingot",
+  "ingredient": "materialistic_tools:deepslate_mithril_ore",
+  "result": {
+    "id": "materialistic_tools:mithril_ingot"
+  }
+}

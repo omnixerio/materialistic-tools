@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.8,
+  "group": "redstone_ingot",
+  "ingredient": "minecraft:redstone",
+  "result": {
+    "id": "materialistic_tools:redstone_ingot"
+  }
+}

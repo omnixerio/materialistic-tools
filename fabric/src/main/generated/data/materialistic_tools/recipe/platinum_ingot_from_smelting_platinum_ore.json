@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.9,
+  "group": "platinum_ingot",
+  "ingredient": "materialistic_tools:platinum_ore",
+  "result": {
+    "id": "materialistic_tools:platinum_ingot"
+  }
+}
