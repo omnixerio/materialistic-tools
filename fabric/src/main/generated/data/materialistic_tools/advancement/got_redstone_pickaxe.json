@@ -1,0 +1,29 @@
+{
+  "parent": "materialistic_tools:got_stone_pickaxe",
+  "criteria": {
+    "got_redstone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic_tools:redstone_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic_tools:gui/advancement_background",
+    "description": "Obtain a redstone pickaxe",
+    "icon": {
+      "id": "materialistic_tools:redstone_pickaxe"
+    },
+    "title": "Redstone"
+  },
+  "requirements": [
+    [
+      "got_redstone_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

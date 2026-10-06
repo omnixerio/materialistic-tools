@@ -1,0 +1,29 @@
+{
+  "parent": "materialistic_tools:got_stone_pickaxe",
+  "criteria": {
+    "got_uranium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic_tools:uranium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic_tools:gui/advancement_background",
+    "description": "Obtain an uranium pickaxe",
+    "icon": {
+      "id": "materialistic_tools:uranium_pickaxe"
+    },
+    "title": "Uranium"
+  },
+  "requirements": [
+    [
+      "got_uranium_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

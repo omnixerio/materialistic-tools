@@ -1,0 +1,29 @@
+{
+  "parent": "materialistic_tools:root",
+  "criteria": {
+    "got_electrum_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic_tools:electrum_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic_tools:gui/advancement_background",
+    "description": "Obtain an electrum pickaxe",
+    "icon": {
+      "id": "materialistic_tools:electrum_pickaxe"
+    },
+    "title": "Electrum"
+  },
+  "requirements": [
+    [
+      "got_electrum_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

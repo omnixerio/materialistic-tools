@@ -26,7 +26,7 @@ configurations {
 
 loom {
   mods {
-    "oddz" {
+    "materialistic_tools" {
       sourceSet sourceSets.main
     }
   }

@@ -390,6 +390,6 @@ public class MaterialisticToolsRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public @NonNull String getName() {
-        return "OddzRecipeProvider";
+        return "Materialistic Tools Recipes";
     }
 }

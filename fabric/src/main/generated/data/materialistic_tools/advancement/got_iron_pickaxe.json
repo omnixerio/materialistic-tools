@@ -1,0 +1,30 @@
+{
+  "parent": "materialistic_tools:got_stone_pickaxe",
+  "criteria": {
+    "got_iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic_tools:gui/advancement_background",
+    "description": "Obtain a iron pickaxe",
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "show_toast": false,
+    "title": "Iron"
+  },
+  "requirements": [
+    [
+      "got_iron_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
