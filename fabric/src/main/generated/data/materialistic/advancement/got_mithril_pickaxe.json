@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_diamond_pickaxe",
+  "criteria": {
+    "got_mithril_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:mithril_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_mithril_pickaxe.description"
+    },
+    "icon": {
+      "id": "materialistic:mithril_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_mithril_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_mithril_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

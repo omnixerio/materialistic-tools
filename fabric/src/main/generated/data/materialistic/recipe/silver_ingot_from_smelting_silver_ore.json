@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "group": "silver_ingot",
+  "ingredient": "materialistic:silver_ore",
+  "result": {
+    "id": "materialistic:silver_ingot"
+  }
+}

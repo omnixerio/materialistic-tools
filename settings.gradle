@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'materialistic-tools'
+rootProject.name = 'materialistic'
 
 include 'common'
 include 'fabric'

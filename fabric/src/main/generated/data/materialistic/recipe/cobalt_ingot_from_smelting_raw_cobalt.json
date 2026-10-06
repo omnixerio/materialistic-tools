@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.2,
+  "group": "cobalt_ingot",
+  "ingredient": "materialistic:raw_cobalt",
+  "result": {
+    "id": "materialistic:cobalt_ingot"
+  }
+}

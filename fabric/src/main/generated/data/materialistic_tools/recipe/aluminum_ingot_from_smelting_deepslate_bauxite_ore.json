@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 0.6,
-  "group": "aluminum_ingot",
-  "ingredient": "materialistic_tools:deepslate_bauxite_ore",
-  "result": {
-    "id": "materialistic_tools:aluminum_ingot"
-  }
-}

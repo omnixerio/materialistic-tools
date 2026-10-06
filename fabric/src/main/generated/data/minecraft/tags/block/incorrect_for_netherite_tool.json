@@ -1,8 +1,8 @@
 {
   "values": [
-    "#materialistic_tools:needs_cobalt_tool",
-    "#materialistic_tools:needs_chunk_tool",
-    "#materialistic_tools:needs_ultrinium_tool",
-    "#materialistic_tools:needs_infinity_tool"
+    "#materialistic:needs_cobalt_tool",
+    "#materialistic:needs_chunk_tool",
+    "#materialistic:needs_ultrinium_tool",
+    "#materialistic:needs_infinity_tool"
   ]
 }

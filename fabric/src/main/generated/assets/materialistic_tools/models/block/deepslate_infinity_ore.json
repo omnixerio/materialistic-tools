@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "materialistic_tools:block/deepslate_infinity_ore"
-  }
-}

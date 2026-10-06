@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#neoforge:ingots/electrum"
+  },
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "id": "materialistic:electrum_boots"
+  }
+}

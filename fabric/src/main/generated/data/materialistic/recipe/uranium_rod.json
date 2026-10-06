@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "/": "#neoforge:ingots/uranium"
+  },
+  "pattern": [
+    "/",
+    "/"
+  ],
+  "result": {
+    "count": 4,
+    "id": "materialistic:uranium_rod"
+  }
+}

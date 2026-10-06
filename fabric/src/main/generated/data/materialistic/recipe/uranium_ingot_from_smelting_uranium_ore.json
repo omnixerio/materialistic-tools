@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.1,
+  "group": "uranium_ingot",
+  "ingredient": "materialistic:uranium_ore",
+  "result": {
+    "id": "materialistic:uranium_ingot"
+  }
+}

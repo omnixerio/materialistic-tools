@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "materialistic:lumium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "materialistic:lumium_ingot"
+  }
+}

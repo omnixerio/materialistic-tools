@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.0,
+  "group": "mithril_ingot",
+  "ingredient": "materialistic:raw_mithril",
+  "result": {
+    "id": "materialistic:mithril_ingot"
+  }
+}

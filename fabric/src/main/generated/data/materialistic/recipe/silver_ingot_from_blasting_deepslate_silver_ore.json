@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "group": "silver_ingot",
+  "ingredient": "materialistic:deepslate_silver_ore",
+  "result": {
+    "id": "materialistic:silver_ingot"
+  }
+}

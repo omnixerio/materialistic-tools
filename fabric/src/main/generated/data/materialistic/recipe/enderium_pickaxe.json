@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#neoforge:ingots/enderium",
+    "/": "minecraft:stick"
+  },
+  "pattern": [
+    "###",
+    " / ",
+    " / "
+  ],
+  "result": {
+    "id": "materialistic:enderium_pickaxe"
+  }
+}

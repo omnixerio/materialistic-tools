@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#neoforge:ingots/redstone"
+  },
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "id": "materialistic:redstone_boots"
+  }
+}

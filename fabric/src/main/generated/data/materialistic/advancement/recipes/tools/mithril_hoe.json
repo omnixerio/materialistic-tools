@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_neoforge:ingots/mithril": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/mithril"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "materialistic:mithril_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_neoforge:ingots/mithril"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "materialistic:mithril_hoe"
+    ]
+  }
+}

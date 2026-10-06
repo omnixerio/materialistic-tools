@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fire_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:fire_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "materialistic:fire_rod"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fire_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "materialistic:fire_rod"
+    ]
+  }
+}

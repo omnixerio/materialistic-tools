@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_cobalt_pickaxe",
+  "criteria": {
+    "got_ultrinium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:ultrinium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_ultrinium_pickaxe.description"
+    },
+    "icon": {
+      "id": "materialistic:ultrinium_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_ultrinium_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_ultrinium_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

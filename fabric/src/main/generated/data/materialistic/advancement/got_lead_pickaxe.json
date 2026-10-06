@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_stone_pickaxe",
+  "criteria": {
+    "got_lead_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:lead_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_lead_pickaxe.description"
+    },
+    "icon": {
+      "id": "materialistic:lead_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_lead_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_lead_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

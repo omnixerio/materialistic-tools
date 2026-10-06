@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_uranium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:raw_uranium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "materialistic:raw_uranium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_uranium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "materialistic:raw_uranium"
+    ]
+  }
+}

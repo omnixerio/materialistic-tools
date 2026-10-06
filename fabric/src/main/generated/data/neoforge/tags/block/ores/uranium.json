@@ -1,6 +1,6 @@
 {
   "values": [
-    "materialistic_tools:uranium_ore",
-    "materialistic_tools:deepslate_uranium_ore"
+    "materialistic:uranium_ore",
+    "materialistic:deepslate_uranium_ore"
   ]
 }

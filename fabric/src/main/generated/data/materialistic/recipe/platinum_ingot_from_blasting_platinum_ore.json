@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.9,
+  "group": "platinum_ingot",
+  "ingredient": "materialistic:platinum_ore",
+  "result": {
+    "id": "materialistic:platinum_ingot"
+  }
+}

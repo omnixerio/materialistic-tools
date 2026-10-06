@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "materialistic:item/obsidian_chestplate"
+  }
+}

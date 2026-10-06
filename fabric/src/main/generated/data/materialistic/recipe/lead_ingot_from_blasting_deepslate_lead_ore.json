@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.5,
+  "group": "lead_ingot",
+  "ingredient": "materialistic:deepslate_lead_ore",
+  "result": {
+    "id": "materialistic:lead_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 300,
+  "experience": 3.0,
+  "group": "ultrinium_ingot",
+  "ingredient": "materialistic:ultrinium_ore",
+  "result": {
+    "id": "materialistic:ultrinium_ingot"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:root",
+  "criteria": {
+    "got_electrum_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:electrum_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_electrum_pickaxe.description"
+    },
+    "icon": {
+      "id": "materialistic:electrum_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_electrum_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_electrum_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

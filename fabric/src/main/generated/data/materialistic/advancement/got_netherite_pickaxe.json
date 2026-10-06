@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_diamond_pickaxe",
+  "criteria": {
+    "got_netherite_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_netherite_pickaxe.description"
+    },
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_netherite_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_netherite_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

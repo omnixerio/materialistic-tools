@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.8,
+  "group": "redstone_ingot",
+  "ingredient": "minecraft:redstone",
+  "result": {
+    "id": "materialistic:redstone_ingot"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "materialistic:got_stone_pickaxe",
+  "criteria": {
+    "got_iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_iron_pickaxe.description"
+    },
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.materialistic.got_iron_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_iron_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

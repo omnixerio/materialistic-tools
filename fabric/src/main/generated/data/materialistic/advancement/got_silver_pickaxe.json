@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_stone_pickaxe",
+  "criteria": {
+    "got_silver_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:silver_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_silver_pickaxe.description"
+    },
+    "icon": {
+      "id": "materialistic:silver_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_silver_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_silver_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

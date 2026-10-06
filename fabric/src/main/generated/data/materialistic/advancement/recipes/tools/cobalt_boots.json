@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_neoforge:ingots/cobalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/cobalt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "materialistic:cobalt_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_neoforge:ingots/cobalt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "materialistic:cobalt_boots"
+    ]
+  }
+}

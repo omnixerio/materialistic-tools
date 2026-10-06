@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "#materialistic:obsidian",
+    "/": "materialistic:fire_rod"
+  },
+  "pattern": [
+    "#",
+    "/",
+    "/"
+  ],
+  "result": {
+    "id": "materialistic:obsidian_shovel"
+  }
+}

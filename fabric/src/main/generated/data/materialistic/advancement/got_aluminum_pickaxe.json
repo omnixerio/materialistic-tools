@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_stone_pickaxe",
+  "criteria": {
+    "got_aluminum_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:aluminum_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_aluminum_pickaxe.description"
+    },
+    "icon": {
+      "id": "materialistic:aluminum_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_aluminum_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_aluminum_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

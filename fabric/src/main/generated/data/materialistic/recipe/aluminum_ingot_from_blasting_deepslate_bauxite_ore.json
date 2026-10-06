@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.6,
+  "group": "aluminum_ingot",
+  "ingredient": "materialistic:deepslate_bauxite_ore",
+  "result": {
+    "id": "materialistic:aluminum_ingot"
+  }
+}

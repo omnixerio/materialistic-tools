@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "materialistic_tools",
+  "id": "materialistic",
   "version": "${version}",
 
-  "name": "Materialistic Tools",
+  "name": "Materialistic",
   "description": "",
   "authors": [],
   "contact": {},
@@ -14,15 +14,15 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.ultreon.mods.materialistictools.fabric.MaterialisticToolsFabric"
+      "dev.ultreon.mods.materialistic.fabric.MaterialisticFabric"
     ],
     "fabric-datagen": [
-      "dev.ultreon.mods.materialistictools.fabric.datagen.MaterialisticToolsDataGenerator"
+      "dev.ultreon.mods.materialistic.fabric.datagen.MaterialisticDataGenerator"
     ]
   },
   "mixins": [
-    "materialistic_tools.mixins.json",
-    "materialistic_tools-common.mixins.json"
+    "materialistic.mixins.json",
+    "materialistic-common.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.1",

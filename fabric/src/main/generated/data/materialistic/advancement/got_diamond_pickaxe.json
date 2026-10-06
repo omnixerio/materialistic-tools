@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_iron_pickaxe",
+  "criteria": {
+    "got_diamond_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_diamond_pickaxe.description"
+    },
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_diamond_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_diamond_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "materialistic:got_chunk_pickaxe",
+  "criteria": {
+    "got_infinity_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "materialistic:infinity_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "materialistic:gui/advancement_background",
+    "description": {
+      "translate": "advancements.materialistic.got_infinity_pickaxe.description"
+    },
+    "icon": {
+      "id": "materialistic:infinity_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.materialistic.got_infinity_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "got_infinity_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

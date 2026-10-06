@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.5,
+  "group": "lead_ingot",
+  "ingredient": "materialistic:raw_lead",
+  "result": {
+    "id": "materialistic:lead_ingot"
+  }
+}

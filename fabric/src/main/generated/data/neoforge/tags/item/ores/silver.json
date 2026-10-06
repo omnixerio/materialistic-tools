@@ -1,6 +1,6 @@
 {
   "values": [
-    "materialistic_tools:silver_ore",
-    "materialistic_tools:deepslate_silver_ore"
+    "materialistic:silver_ore",
+    "materialistic:deepslate_silver_ore"
   ]
 }

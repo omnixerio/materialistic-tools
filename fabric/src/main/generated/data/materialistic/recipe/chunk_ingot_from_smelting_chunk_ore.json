@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 2000,
+  "experience": 5.0,
+  "group": "chunk_ingot",
+  "ingredient": "materialistic:chunk_ore",
+  "result": {
+    "id": "materialistic:chunk_ingot"
+  }
+}

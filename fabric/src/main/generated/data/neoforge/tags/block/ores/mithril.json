@@ -1,6 +1,6 @@
 {
   "values": [
-    "materialistic_tools:mithril_ore",
-    "materialistic_tools:deepslate_mithril_ore"
+    "materialistic:mithril_ore",
+    "materialistic:deepslate_mithril_ore"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1.2,
+  "group": "cobalt_ingot",
+  "ingredient": "materialistic:nether_cobalt_ore",
+  "result": {
+    "id": "materialistic:cobalt_ingot"
+  }
+}
