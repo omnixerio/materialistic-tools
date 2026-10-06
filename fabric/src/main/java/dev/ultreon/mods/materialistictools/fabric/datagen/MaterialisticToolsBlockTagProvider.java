@@ -63,24 +63,23 @@ public class MaterialisticToolsBlockTagProvider extends FabricTagsProvider<Block
 
             switch (relativeMaterial.getRelative()) {
                 case SAME_AS -> builder(tag).addTag(relativeTag);
-                // A higher material harvests everything the referenced material harvests and more,
-                // so its restriction set is a strict subset that a tag reference cannot express.
                 case HIGHER_THAN -> {
-
+                    // A higher material harvests everything the referenced material harvests and more,
+                    // so its restriction set is a strict subset that a tag reference cannot express.
                 }
             }
         }
 
         builder(ModBlockTags.INCORRECT_FOR_COBALT_TOOL)
+                .addTag(ModBlockTags.NEEDS_ULTRINIUM_TOOL)
                 .addTag(ModBlockTags.NEEDS_CHUNK_TOOL)
-                .addTag(ModBlockTags.NEEDS_ULTRINIUM_TOOL)
-                .addTag(ModBlockTags.NEEDS_INFINITY_TOOL);
-
-        builder(ModBlockTags.INCORRECT_FOR_CHUNK_TOOL)
-                .addTag(ModBlockTags.NEEDS_ULTRINIUM_TOOL)
                 .addTag(ModBlockTags.NEEDS_INFINITY_TOOL);
 
         builder(ModBlockTags.INCORRECT_FOR_ULTRINIUM_TOOL)
+                .addTag(ModBlockTags.NEEDS_CHUNK_TOOL)
+                .addTag(ModBlockTags.NEEDS_INFINITY_TOOL);
+
+        builder(ModBlockTags.INCORRECT_FOR_CHUNK_TOOL)
                 .addTag(ModBlockTags.NEEDS_INFINITY_TOOL);
 
         builder(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
@@ -130,16 +129,16 @@ public class MaterialisticToolsBlockTagProvider extends FabricTagsProvider<Block
                 Objects.requireNonNull(ItemMaterial.COBALT.getStorageBlock()).getKey()
         );
         builder(ModBlockTags.NEEDS_COBALT_TOOL).add(
-                Objects.requireNonNull(ItemMaterial.CHUNK.getStoneOre()).getKey(),
-                Objects.requireNonNull(ItemMaterial.CHUNK.getDeepslateOre()).getKey(),
-                Objects.requireNonNull(ItemMaterial.CHUNK.getStorageBlock()).getKey()
-        );
-        builder(ModBlockTags.NEEDS_CHUNK_TOOL).add(
                 Objects.requireNonNull(ItemMaterial.ULTRINIUM.getStoneOre()).getKey(),
                 Objects.requireNonNull(ItemMaterial.ULTRINIUM.getDeepslateOre()).getKey(),
                 Objects.requireNonNull(ItemMaterial.ULTRINIUM.getStorageBlock()).getKey()
         );
         builder(ModBlockTags.NEEDS_ULTRINIUM_TOOL).add(
+                Objects.requireNonNull(ItemMaterial.CHUNK.getStoneOre()).getKey(),
+                Objects.requireNonNull(ItemMaterial.CHUNK.getDeepslateOre()).getKey(),
+                Objects.requireNonNull(ItemMaterial.CHUNK.getStorageBlock()).getKey()
+        );
+        builder(ModBlockTags.NEEDS_CHUNK_TOOL).add(
                 Objects.requireNonNull(ItemMaterial.INFINITY.getStoneOre()).getKey(),
                 Objects.requireNonNull(ItemMaterial.INFINITY.getDeepslateOre()).getKey(),
                 Objects.requireNonNull(ItemMaterial.INFINITY.getStorageBlock()).getKey()
